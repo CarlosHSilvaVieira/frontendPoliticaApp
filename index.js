@@ -64,7 +64,7 @@ function analiseDeputado() {
    });
 
   $.ajax({
-    url: 'http://titecnologiasbd.azurewebsites.net:3000/deputado/analise/' + text,
+    url: 'http://titecnologiasbd.azurewebsites.net/deputado/analise/' + text,
     headers: {'Accept': 'application/json',
               'Content-Type': 'application/json'},
     method: 'GET',
@@ -103,7 +103,7 @@ function analiseSenador(text) {
    });
 
   $.ajax({
-    url: 'http://titecnologiasbd.azurewebsites.net:3000/senador/analise/' + text,
+    url: 'http://titecnologiasbd.azurewebsites.net/senador/analise/' + text,
     headers: {'Accept': 'application/json',
               'Content-Type': 'application/json'},
     method: 'GET',
