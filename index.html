@@ -22,12 +22,12 @@
     <script src="js/mlpushmenu.js"></script>
     <script src="index.js" type="application/javascript"></script>
     <script>
-        $.getJSON("http://titecnologiasbd.azurewebsites.net/deputados/", function (json) {
+        $.getJSON("http://titecnologiasbd.azurewebsites.net:3000/deputados/", function (json) {
             $.each(json, function (i, obj) {
                 $('#deputado').append($('<option>').text(obj.nome).attr('value', obj.id));
             });
         });
-        $.getJSON("http://titecnologiasbd.azurewebsites.net/senadores/", function (json) {
+        $.getJSON("http://titecnologiasbd.azurewebsites.net:3000/senadores/", function (json) {
             $.each(json, function (i, obj) {
                 $('#senador').append($('<option>').text(obj.nome).attr('value', obj.id));
             });
