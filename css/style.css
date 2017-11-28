@@ -1,0 +1,129 @@
+html, body {
+        height: 100%;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        background-color: #fff;
+}
+
+::-webkit-scrollbar {
+    height: 10px;
+    width: 2px;
+    background: #000;
+}
+
+::-webkit-scrollbar-thumb:vertical {
+    background: #000;
+}
+
+#octogono{
+    height:100%;
+    width: 100%;
+    z-index: 1;
+}
+
+#menuu{
+    margin: 30px;
+    position: absolute;
+    z-index:2;
+    color: #222;    
+    font-size: 18px;
+}
+#menuu a{
+   color: #222;
+}
+
+.octogonoStyle{
+ padding: 12% 10% 0 10%;    
+ background-color: #fff;
+ color: #222;
+ height: auto;
+ width: auto;
+    
+}
+
+.container{
+    margin: 0;
+    padding: 0;
+}
+
+.search {
+  width: 70%;
+  position: relative;
+}
+
+.searchTerm {
+  float: left;
+  width: 100%;
+  
+  padding: 5px;
+  height: 40px;
+  
+  outline: none;
+  color: #222;
+}
+
+.searchTerm:focus{
+  
+}
+
+.searchButton {
+  position: absolute; 
+  right: -50px;
+  width: 40px;
+  height: 40px;
+
+  text-align: center;
+  color: #222;
+    
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.ranking{
+    margin-top: 200px;
+    
+    bottom: 0;
+    height: calc(100% - 200px);
+    width: 100%;
+    background-color: #fff;
+}
+
+#bar-chart{
+    padding-top: 60px;
+}
+
+.chartContainerActive{
+    display: block;
+    
+}
+
+
+
+.select-style {
+    margin-top: 100px;
+    position: absolute;
+    border: 1px solid #ccc;
+    width: 40%;        
+    background: #fafafa url("img/icon-select.png") no-repeat 90% 50%;
+}
+
+.select-style select {
+    padding: 5px 8px;
+    width: 100%;
+    color: #000;
+    border: none;
+    box-shadow: none;
+    background: transparent;
+    background-image: none;
+    -webkit-appearance: none;
+    
+}
+
+.select-style select:focus {
+    outline: none;
+}
+
+#dep{
+    margin-left: 40%;
+}
